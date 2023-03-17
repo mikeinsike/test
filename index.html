@@ -11,7 +11,7 @@ function myFunction()
 var a=document.getElementById("text_a").value;
 var key=${{ secret.PASSWORD }}
 
-if (a==key)
+if (a=key)
   {
 document.getElementById("answer").innerHTML="Correct, Redirecting";
 location.replace('https://mikeinsike.com');
