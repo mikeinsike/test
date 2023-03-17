@@ -9,10 +9,11 @@
 function myFunction()
 {
 var a=document.getElementById("text_a").value;
+var tempkey=math.random()
 
 if (a=="Mikeinsike")
   {
-document.getElementById("answer").innerHTML="Correct, Redirecting";
+document.getElementById("answer").innerHTML="Correct, Redirecting", tempkey;
 location.replace('https://mikeinsike.com');
 }
 else
